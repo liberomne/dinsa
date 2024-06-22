@@ -1,0 +1,101 @@
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.judul_halaman {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#wrapper {
+    background-color: #fff;
+    width: 1100px;
+    margin: 20px auto;
+}
+
+#wrapper header {
+    border-radius: 20px;
+    background-color: #232323;
+    padding: 20px;
+}
+
+#wrapper header hgroup {
+    float: left;
+    color: #fff;
+}
+
+#wrapper header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+#wrapper header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+#wrapper header nav ul li a {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+#wrapper header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    border-radius: 20px;
+    background-color: #232323;
+    padding: 20px;
+}
+
+footer a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+}
+
+section ol li {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section_description {
+    font-size: 16px;
+}

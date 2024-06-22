@@ -1,0 +1,14 @@
+.error_msg {
+    display: flex;
+    font-size: 22px;
+    color: red;
+    text-align: center;
+    justify-content: center;
+}
+
+.error_desc {
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+}
